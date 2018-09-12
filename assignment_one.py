@@ -1,5 +1,4 @@
 import turtle
-turtle.speed(50)
 def draw_an_octagon():
 
 
@@ -14,10 +13,23 @@ draw_an_octagon()
 turtle.end_fill()
 
 turtle.up()
-turtle.right(90)
-turtle.forward(90)
+turtle.forward(200)
 turtle.down()
+
+turtle.color("green")
+turtle.begin_fill()
 draw_an_octagon()
+turtle.end_fill()
+
+turtle.up()
+turtle.left(90)
+turtle.forward(250)
+turtle.down()
+
+turtle.color("red")
+turtle.begin_fill()
+draw_an_octagon()
+turtle.end_fill()
 
 
 turtle.exitonclick()
